@@ -93,3 +93,6 @@ def search_movie(movie_name):
 
 
     return search_movie_results
+
+def video_name(movie):
+    videos_movie_url = 'http://api.themoviedb.org/3/movie/500/videos?api_key={}'
